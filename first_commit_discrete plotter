@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jan  19 00:02:59 2019
+
+@author: Om
+"""
+ury=int(input("Enter the max of y axis"))
+lry=int(input("Enter the min of y axis"))
+urx=int(input("Enter the max of x axis"))
+lrx=int(input("Enter the min of x axis"))
+n=int(input("Enter the diff"))
+for y in range(ury,lry-n,n*(-1)):
+    for x in range(lrx,urx+n,n):
+        if x==lrx:
+            print(y,end='')
+        if x==y*y:
+            print("*",end='')
+        else:
+            print(" ",end='')
+    print()
+print(" ",end='')    
+for i in range(lrx,urx,n):
+ print(i%10,end='')
+print() 
+print("user please note that the x-axis only shows the last digit of the value plotted on the x-axis 
+
+")       
+  
