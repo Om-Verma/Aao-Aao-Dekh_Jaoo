@@ -1,2 +1,2 @@
-# Aao-Aao-Dekh_Jaoo
+# discrete Graph plotter
 Discrete Graph_plotter (just for fun and to learn)
